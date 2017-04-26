@@ -31,21 +31,15 @@ class SignInVC: UIViewController {
 
                 } else {
                     // Unable to log in.
-                    
-                    // CURRENTLY IF THE USER DOES NOT EXIST IN THE DATABASE THIS APP WILL AUTOMATICALLY CREATE A NEW USER.
-                    // THIS WILL CHANGE. 
-                    FIRAuth.auth()?.createUser(withEmail: address, password: pass, completion: {(user, error) in
-                        if error != nil {
-                            // User could not be created.
-                        } else {
-                            // User was successfully created.
-                        }
-                    })
+                    print ("Unable to LOG IN")
                 }
             
             })
         }
     }
 
+    @IBAction func registerTapped(_ sender: Any) {
+        performSegue(withIdentifier: "registerUser", sender: nil)
+    }
 }
 
