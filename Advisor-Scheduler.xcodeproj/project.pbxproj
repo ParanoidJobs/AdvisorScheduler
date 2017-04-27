@@ -15,7 +15,8 @@
 		5E128E121EAE709C00B45EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E128E101EAE709C00B45EE6 /* LaunchScreen.storyboard */; };
 		5E128E1A1EAE717300B45EE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E128E191EAE717300B45EE6 /* GoogleService-Info.plist */; };
 		5E5152B21EB128F2007324E9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5152B11EB128F2007324E9 /* DataService.swift */; };
-		5E5152B41EB13317007324E9 /* InstructorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5152B31EB13317007324E9 /* InstructorVC.swift */; };
+		5E826F131EB171CC00B93DAC /* InstructorHomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E826F121EB171CC00B93DAC /* InstructorHomePageVC.swift */; };
+		5E826F151EB171F100B93DAC /* EditScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E826F141EB171F100B93DAC /* EditScheduleVC.swift */; };
 		5EC071CA1EB011C6000D04FE /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC071C91EB011C6000D04FE /* RegisterVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +30,8 @@
 		5E128E131EAE709C00B45EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E128E191EAE717300B45EE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E5152B11EB128F2007324E9 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		5E5152B31EB13317007324E9 /* InstructorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorVC.swift; sourceTree = "<group>"; };
+		5E826F121EB171CC00B93DAC /* InstructorHomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorHomePageVC.swift; sourceTree = "<group>"; };
+		5E826F141EB171F100B93DAC /* EditScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScheduleVC.swift; sourceTree = "<group>"; };
 		5EC071C91EB011C6000D04FE /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		754C31F9C22B03F7AEEAD90E /* Pods-Advisor-Scheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Advisor-Scheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Advisor-Scheduler/Pods-Advisor-Scheduler.debug.xcconfig"; sourceTree = "<group>"; };
 		B3C97F4F25A0819B6A917073 /* Pods-Advisor-Scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Advisor-Scheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Advisor-Scheduler/Pods-Advisor-Scheduler.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +79,6 @@
 				5E128E101EAE709C00B45EE6 /* LaunchScreen.storyboard */,
 				5E128E131EAE709C00B45EE6 /* Info.plist */,
 				5E128E191EAE717300B45EE6 /* GoogleService-Info.plist */,
-				5E5152B11EB128F2007324E9 /* DataService.swift */,
 			);
 			path = "Advisor-Scheduler";
 			sourceTree = "<group>";
@@ -85,6 +86,7 @@
 		5E128E1B1EAE790C00B45EE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5E5152B11EB128F2007324E9 /* DataService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -94,7 +96,8 @@
 			children = (
 				5E128E091EAE709C00B45EE6 /* SignInVC.swift */,
 				5EC071C91EB011C6000D04FE /* RegisterVC.swift */,
-				5E5152B31EB13317007324E9 /* InstructorVC.swift */,
+				5E826F121EB171CC00B93DAC /* InstructorHomePageVC.swift */,
+				5E826F141EB171F100B93DAC /* EditScheduleVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -241,10 +244,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC071CA1EB011C6000D04FE /* RegisterVC.swift in Sources */,
+				5E826F131EB171CC00B93DAC /* InstructorHomePageVC.swift in Sources */,
 				5E128E0A1EAE709C00B45EE6 /* SignInVC.swift in Sources */,
+				5E826F151EB171F100B93DAC /* EditScheduleVC.swift in Sources */,
 				5E128E081EAE709C00B45EE6 /* AppDelegate.swift in Sources */,
 				5E5152B21EB128F2007324E9 /* DataService.swift in Sources */,
-				5E5152B41EB13317007324E9 /* InstructorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
